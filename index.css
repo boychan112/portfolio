@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+    
+    #container{
+        width: 2000px;
+        height: 4000px;
+    }
+
+    body{
+        margin-top: 400px;
+    }
+
+    hr{
+        margin: 0;
+    }
+
+    aside{
+        width: 300px;
+        height: 1200px;
+        float: left;
+        position: fixed;
+        background-image: url(https://cdn.discordapp.com/attachments/634034178949775362/990269720542474330/aside.png);
+    }
+
+    header{
+        width: 2050px;
+        height: 400px;
+        background-color: black;
+        background-image: url(https://cdn.discordapp.com/attachments/634034178949775362/990269720752181268/header.png);
+        background-repeat: none;
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .main{
+        width: 1700px;
+        height: 3400px;
+        background-color: rgb(108,161,221);
+        background-image: url(https://cdn.discordapp.com/attachments/634034178949775362/990271596558159942/main.png);
+        margin: 0;
+        float: right;
+    }
+
+    .h_link{
+        font-family: 'East Sea Dokdo', cursive;
+        font-size: 50px;
+    }
+
+    .main>.h_link>a{
+        color: black;
+    }
+
+    footer{
+        width: 2000px;
+        height: auto;
+        font-size: 20px;
+        text-align: center;
+        background-color: aqua;
+        margin: 0;
+        clear: both;
+    }
+
+    body aside .h_link a:hover{
+        background-color: aqua;
+        color: black;
+    }
+
+    body aside .h_link a:active{
+        text-shadow: white 5px 5px 1px;
+    }
